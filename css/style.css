@@ -1,0 +1,465 @@
+.clear{clear:both;}
+a
+{
+	color:inherit;
+}
+body
+{
+	font-family:arial;
+	font-weight:normal;
+	text-decoration:none;
+	margin:0;
+	padding:0 10px;
+	background-image:url(../images/bg-body.jpg);
+	color:#333;
+	overflow-y:scroll;
+}
+
+
+#wrapper
+{
+	background-color:white;
+	max-width: 900px;
+	margin: 0 auto;
+	display: block;
+	padding: 1px 14px;
+	-webkit-box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 8px 1px rgba(0,0,0,0.5);
+	box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.5);
+	font-family: "Lucida Grande", arial, "lucida sans";
+}
+
+
+#header ul.navigation
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+#header ul.navigation li
+{
+	display:inline-block;
+	width:45%;
+	margin-bottom:3px;
+	max-width:200px;
+	margin-left:0;
+	margin-right:4px;
+	position:relative;
+}
+#header ul.navigation li a:hover
+{
+	background-color:#ddd;
+}
+#header ul.navigation li a 
+{
+font-size: 15px;
+text-decoration: none;
+color: #555;
+display:block;
+padding:5px 5px 5px 15px;
+background-color:#eee;
+}
+#header ul.navigation li a:hover
+{
+	text-decoration:underline;
+}
+#header ul ul
+{
+	position:absolute;
+	top:0;
+	left:0px;
+	width:200px;
+	padding:75px 0 0 0;
+	text-align:left;
+	display:none;
+	z-index:10;
+}
+#header ul.navigation li ul li
+{
+	width:200px;
+}
+#header 
+{
+	background-image:url(../images/border.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+
+#diensten h1
+{
+	color:#444;
+}
+.diensten
+{
+	font-family:verdana;
+	font-size:90%;
+}
+ul.nostyle > li
+{
+	list-style:none;
+}
+strong.underline
+{
+	text-decoration:underline;
+}
+.diensten tr td:first-child
+{
+	text-align:left;
+	font-weight:bold;
+}
+.diensten tr td
+{
+	text-align:center;
+	vertical-align:bottom;
+}
+.diensten tr.smallimg td img
+{
+	width:25px;
+}
+.diensten tr.smallimg td p
+{
+	margin:2px 0 0 31px;
+}
+
+#content
+{
+	display:block;
+	width:100%;
+}
+#content #intro h1 
+{
+padding:0;
+margin: 20px 0 0 0;
+font-size: 29px;
+font-family: "lucida sans", arial;
+font-weight:normal;
+color: #AAA;
+}
+#content #intro span
+{
+	color:#333;
+}
+#content #intro p 
+{
+padding:0;
+margin:0;
+font-size: 27px;
+font-family: "lucida sans", arial;
+font-weight:normal;
+color: #AAA;
+}
+#content #posts
+{
+	margin-top:15px;
+}
+#content #posts .post
+{
+	display:inline-block;
+	max-width:45%;
+	margin-left:2%;
+	margin-right:2%;
+	vertical-align:top;
+	text-align:justify;
+}
+#content #posts .post p
+{
+	font-size:90%;
+}
+#content #posts .post h1
+{
+	font-size:95%;
+}
+#content #posts .post img
+{
+	max-width:80%;
+}
+#content #posts .post a
+{
+	color:#333;
+}
+#content .leftContent
+{
+	width:100%;
+	display:inline-block;
+	float:left;
+	text-align:justify;
+}
+#content .leftContent img
+{
+	max-width:60px;
+	float:left;
+}
+#content #rightSidebar
+{
+	width:100%;
+	display:inline-block;
+	margin-right:3%;
+	float:right;
+	text-align:center;
+}
+#content #rightSidebar img
+{
+
+	margin:5%;
+	margin-top:20px;
+	width:90%;
+	max-width:180px;
+}
+#content #welcome
+{
+	border-bottom:1px dotted #ffbbbb;
+	margin-top:25px;
+	text-align:justify;
+	font-size:15px;
+}
+#content #welcome p
+{
+	width:45%;
+	display:inline-block;
+	vertical-align:top;
+	margin:1%;
+}
+span.coloured
+{
+	color:#3388ff;
+}
+.blue
+{
+	width:100%;
+}
+#contactForm table
+{
+width:100%;
+}
+#contactForm table tr input
+{
+	width:100%;
+}
+#contactForm table tr textarea
+{
+	height:200px;
+	width:200%;
+}
+#contactForm table tr:last-child input
+{
+	width:70%;
+}
+#contactForm
+{
+	display:inline-block;
+	width:50%;
+}
+#contactForm td
+{
+	display:block;
+}
+#gegevens
+{
+	font-size:12px;
+	vertical-align:top;
+	padding:4%;
+	height:80%;
+	width:35%;
+	display:inline-block;
+}
+.color
+{
+	color:#ff5a5a;
+}
+.mail:hover
+{
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+#slideshow
+{
+	display:none;
+}
+
+
+
+
+
+
+
+/* diensten						*/
+
+#diensten
+{
+	margin-top:20px;
+	display:inline-block;
+	text-align:center;
+}
+#diensten .dienst
+{
+	text-decoration:none;
+	color:#ff5a5a;
+	font-weight:bold;
+	font-size:12px;
+	
+	display:inline-block;
+	margin:9px;
+	padding-top:3px;
+	
+	width:200px;
+	height:160px;
+	
+	-webkit-box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 0 0 8px 1px rgba(0,0,0,0.8);
+	box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.8);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+}
+#diensten  .dienst img
+{
+	margin-top:4px;
+	width:140px;
+}
+#cv
+{
+	width:100%;
+	font-family:lato;
+}
+#cv fieldset
+{
+	margin:20px 5px 30px 5px;
+}
+#cv legend
+{
+	font-size:20px;
+	color:#000;
+}
+#cv .skillBlock
+{
+	display:block;
+	margin-bottom:20px;
+	-webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 0 3px 1px rgba(0,0,0,0.3);
+	box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
+}
+#cv .skillBlock div:first-child p.skill
+{
+	font-size:18px;
+	color:#f55;
+}
+#cv .skillBlock div:first-child p.skill em
+{
+	font-size:10px;
+	color:#888;
+}
+#cv .skillBlock .row
+{
+	margin-bottom:5px;
+}
+#cv .skillBlock .row.even
+{
+	
+}
+#cv .skillBlock .row.odd
+{
+	background-color:#fcc;
+}
+#cv .skillBlock .row p
+{
+	margin:0;
+	padding:0;
+}
+#cv .skillBlock .anounce
+{
+	width:60px;
+	display:inline-block;
+}
+#cv .skillBlock .points
+{
+	display:inline-block;
+	width:15px;
+}
+#cv .skillBlock .skill
+{
+	display:inline-block;
+}	
+
+
+#portfolio div.featured {
+	display:inline-block;
+	max-width: 278px;
+	width:100%;
+	text-align: center;
+	margin: 10px;
+	background-color:white;
+	padding-top:5px;
+	-webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 0 3px 1px rgba(0,0,0,0.3);
+	box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
+}
+#portfolio div.featured img
+{
+	max-width:100%;
+}
+#portfolio div.featured ul
+{
+	margin:0;
+	padding:0;
+}
+#portfolio div.featured ul li
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+	display:inline-block;
+}
+#portfolio div.featured ul li a img:hover {
+filter: alpha(opacity=70);
+opacity: 0.7;
+}
+
+
+
+#footer
+{
+	background-color:#666;
+	color:#bbb;
+	padding:10px;
+	vertical-align:top;
+}
+#footer h2
+{
+	margin-top:0;
+}
+#footer .logo, #footer .quote
+{
+	display:none;
+}
+#footer p
+{
+	text-align:justify;
+}
+#footer div img
+{
+	width:30%;
+}
+#footer div
+{
+	display:inline-block;
+	vertical-align:top;
+	margin-left:4%;
+	min-width:150px;
+	max-width:45%;
+}
+#footer span
+{
+	padding-top:4px;
+	background-image:url(../images/border.png);
+	background-position:top;
+	background-repeat:repeat-x;
+	width:100%;
+	display:block;
+}

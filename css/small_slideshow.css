@@ -1,0 +1,30 @@
+#secondSlideshow
+{
+	display:block;
+	position:relative;
+	width:100%;
+	margin:20px auto 0 auto;
+}
+#secondSlideshow div
+{
+	display:block;
+}
+#secondSlideshow a.previousSlide, #Slideshow a.previousSlide
+{
+	display:none;
+}
+#secondSlideshow a.nextSlide, #Slideshow a.nextSlide
+{
+	display:none;
+}
+
+#secondSlideshow img
+{
+	-webkit-box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 8px 1px rgba(0,0,0,0.5);
+	box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.5);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+	width:100%;
+}

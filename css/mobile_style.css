@@ -1,0 +1,48 @@
+#header ul.navigation li a 
+{
+padding:8px 5px 8px 15px;
+}
+
+#header ul.navigation li ul li
+{
+	max-width:50%;
+	display:block;
+}
+
+#content #intro h1 
+{
+padding:0;
+margin: 20px 0 0 0;
+font-size: 20px;
+font-family: "lucida sans", arial;
+font-weight:normal;
+color: #AAA;
+}
+#content #intro span
+{
+	color:#333;
+}
+#content #intro p 
+{
+padding:0;
+margin:0;
+font-size: 20px;
+font-family: "lucida sans", arial;
+font-weight:normal;
+color: #AAA;
+}
+#content #posts .post p
+{
+	font-size:70%;
+}
+#content #posts .post h1
+{
+	font-size:75%;
+}
+#content #welcome p
+{
+	width:100%;
+	display:block;
+	font-size:80%;
+	margin-top:15px;
+}
