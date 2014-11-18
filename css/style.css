@@ -463,3 +463,8 @@ opacity: 0.7;
 	width:100%;
 	display:block;
 }
+
+#email
+{
+    direction:rtl;
+}
