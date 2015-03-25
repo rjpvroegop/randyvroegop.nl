@@ -1,0 +1,93 @@
+#thatsme {
+    margin:0 auto;
+    display:block;
+    max-width:800px;
+    width:100%;
+    min-height:550px;
+    text-align:center;
+}
+
+#thatsme h1{
+    background-color:#f54;
+    color:#fff;
+    font-size:25px;
+    font-weight:100;
+    max-width:792px;
+    height:35px;
+    padding:4px;
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 5px 1px rgba(0,0,0,0.4);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+#thatsme #imageMap {
+    max-width:90%;
+    position:relative;
+    width:296px;
+    height:377px;
+    margin:0 auto;
+}
+
+#imageMap img {
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+#imageMap img + img{
+    display:none;
+}
+
+.skillset{
+    margin:80px auto 0 auto;
+    display:block;
+}
+
+.skillholder{
+    margin:0 50px 0px 50px;
+    padding:0;
+    height:100px;
+    position:relative;
+}
+
+.skillholder .icon{
+    width:80px;
+    height:80px;
+    display:inline-block;
+    background-color:#f54;
+    position:absolute;
+    top:10px;
+}
+
+.bar{
+    width:680px;
+    height:30px;
+    display:inline-block;
+    background-color:#f54;
+    position:absolute;
+    top:35px;
+    left:120px;
+}
+
+.bar{
+    width:680px;
+    height:30px;
+    display:inline-block;
+    background-color:#555;
+    position:absolute;
+    top:35px;
+    left:120px;
+}
+
+.fillbar{
+    height:30px;
+    display:inline-block;
+    background-color:#f54;
+    position:absolute;
+    padding-left:30px;
+}
+
+.bar div{
+
+    display:inline-block;
+}

@@ -1,0 +1,46 @@
+#footer{
+    max-width:800px;
+    margin:50px 50px 0;
+    min-height:120px;
+    background-color:#999;
+    position:relative;
+    text-align:right;
+}
+
+#footer-banner{
+    background-color:#f54;
+    display:block;
+    width:200px;
+    height:40px;
+    margin: 0 auto;
+    position: absolute;
+    top: -20px; left: 0; bottom: 0; right: 0;
+    vertical-align:top;
+    text-align:center;
+    -webkit-box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 8px 1px rgba(0,0,0,0.3);
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+#footer-banner p {
+    margin:4px 0 0 0;
+    color:#fff;
+    font-weight:400;
+    font-size:25px;
+}
+
+#footer .info {
+    display:inline-block;
+    float:left;
+
+    margin:10px;
+}
+
+#footer .info, #footer .info a{
+    color:#ccc;
+}
+
+#footer #pics{
+    margin:10px;
+    display:inline-block;
+}

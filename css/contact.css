@@ -1,0 +1,23 @@
+input{
+    width:300px;
+}
+
+input[type=submit]{
+    width:100px;
+}
+
+textarea{
+    width:400px;
+}
+
+label {
+    width: 100px;
+    display: block;
+    margin: 4px 0 4px 10px;
+    padding-left:10px;
+    height:15px;
+}
+
+table{
+    margin:0 auto;
+}

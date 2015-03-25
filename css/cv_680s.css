@@ -1,0 +1,16 @@
+.right{
+    padding:0;
+    border-left:none;
+}
+
+.item{
+    padding:5px;
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 5px 1px rgba(0,0,0,0.4);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.left{
+
+    margin-left:0px;
+}
